@@ -5,7 +5,7 @@ import models
 from pydantic import Field,BaseModel
 from models import Todos
 from database import engine,SessionLocal
-from routers import auth                    #importiamo il file auth.py dalla cartella routers
+from todo_app_routers import auth                    #importiamo il file auth.py dalla cartella routers
 
 app=FastAPI()
 
